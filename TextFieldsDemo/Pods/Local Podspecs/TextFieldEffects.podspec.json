@@ -1,0 +1,118 @@
+{
+  "name": "TextFieldEffects",
+  "version": "1.5.1",
+  "summary": "Custom drop in UITextFields effects.",
+  "description": "TextFieldEffects enables a collection of drop in effects to standard UITextFields.",
+  "homepage": "http://github.com/raulriera/TextFieldEffects",
+  "screenshots": [
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Kaede.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Hoshi.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Jiro.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Isao.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Minoru.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Yoko.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Madoka.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Akira.gif",
+    "https://raw.githubusercontent.com/raulriera/TextFieldEffects/master/Screenshots/Yoshiko.gif"
+  ],
+  "license": "MIT",
+  "authors": {
+    "Raul Riera": "rieraraul@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/raulriera",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_version": "4.2",
+  "source": {
+    "git": "https://github.com/raulriera/TextFieldEffects.git",
+    "tag": "1.5.1"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Classes/Core/**/*.{h,m,swift}"
+    },
+    {
+      "name": "Hoshi",
+      "source_files": "Sources/Classes/Hoshi/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Kaede",
+      "source_files": "Sources/Classes/Kaede/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Jiro",
+      "source_files": "Sources/Classes/Jiro/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Isao",
+      "source_files": "Sources/Classes/Isao/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Minoru",
+      "source_files": "Sources/Classes/Minoru/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Yoko",
+      "source_files": "Sources/Classes/Yoko/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Madoka",
+      "source_files": "Sources/Classes/Madoka/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Akira",
+      "source_files": "Sources/Classes/Akira/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Yoshiko",
+      "source_files": "Sources/Classes/Yoshiko/**/*.{h,m,swift}",
+      "dependencies": {
+        "TextFieldEffects/Core": [
+
+        ]
+      }
+    }
+  ]
+}

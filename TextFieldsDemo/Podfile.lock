@@ -1,0 +1,45 @@
+PODS:
+  - TextFieldEffects (1.5.1):
+    - TextFieldEffects/Akira (= 1.5.1)
+    - TextFieldEffects/Core (= 1.5.1)
+    - TextFieldEffects/Hoshi (= 1.5.1)
+    - TextFieldEffects/Isao (= 1.5.1)
+    - TextFieldEffects/Jiro (= 1.5.1)
+    - TextFieldEffects/Kaede (= 1.5.1)
+    - TextFieldEffects/Madoka (= 1.5.1)
+    - TextFieldEffects/Minoru (= 1.5.1)
+    - TextFieldEffects/Yoko (= 1.5.1)
+    - TextFieldEffects/Yoshiko (= 1.5.1)
+  - TextFieldEffects/Akira (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Core (1.5.1)
+  - TextFieldEffects/Hoshi (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Isao (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Jiro (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Kaede (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Madoka (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Minoru (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Yoko (1.5.1):
+    - TextFieldEffects/Core
+  - TextFieldEffects/Yoshiko (1.5.1):
+    - TextFieldEffects/Core
+
+DEPENDENCIES:
+  - TextFieldEffects (from `../`)
+
+EXTERNAL SOURCES:
+  TextFieldEffects:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TextFieldEffects: cc8703ef6baff192b2652124b04c2e0776da7aa2
+
+PODFILE CHECKSUM: 5b532e97038c3799fb098cb285a4ae3eaee2d658
+
+COCOAPODS: 1.5.3

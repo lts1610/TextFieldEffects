@@ -75,5 +75,64 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'TextFieldEffects/TextFieldEffects/*.swift'
+  # s.source_files  = 'Sources/Classes/Core/*.swift'
+  s.subspec 'Core' do |c|
+    c.source_files  = 'Sources/Classes/Core/**/*.{h,m,swift}'
+  end
+
+  s.subspec 'Hoshi' do |c|
+    c.source_files  = 'Sources/Classes/Hoshi/**/*.{h,m,swift}'
+
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Kaede' do |c|
+    c.source_files  = 'Sources/Classes/Kaede/**/*.{h,m,swift}'
+
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Jiro' do |c|
+    c.source_files  = 'Sources/Classes/Jiro/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Isao' do |c|
+    c.source_files  = 'Sources/Classes/Isao/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Minoru' do |c|
+    c.source_files  = 'Sources/Classes/Minoru/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+
+  s.subspec 'Yoko' do |c|
+    c.source_files  = 'Sources/Classes/Yoko/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Madoka' do |c|
+    c.source_files  = 'Sources/Classes/Madoka/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Akira' do |c|
+    c.source_files  = 'Sources/Classes/Akira/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
+  s.subspec 'Yoshiko' do |c|
+    c.source_files  = 'Sources/Classes/Yoshiko/**/*.{h,m,swift}'
+    
+    c.dependency 'TextFieldEffects/Core'
+  end
+
 end
